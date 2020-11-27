@@ -13,6 +13,13 @@
 		6A4C85C8257129CC00F2D867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4C85C6257129CC00F2D867 /* Main.storyboard */; };
 		6A4C85CA257129D400F2D867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4C85C9257129D400F2D867 /* Assets.xcassets */; };
 		6A4C85CD257129D400F2D867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4C85CB257129D400F2D867 /* LaunchScreen.storyboard */; };
+		6A4C85E62571434B00F2D867 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4C85E52571434B00F2D867 /* Characters.swift */; };
+		6A4C85EC2571436800F2D867 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4C85EB2571436800F2D867 /* Model.swift */; };
+		6A4C85F22571446400F2D867 /* DataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4C85F12571446400F2D867 /* DataList.swift */; };
+		6A4C85F825714B7100F2D867 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4C85F725714B7100F2D867 /* Results.swift */; };
+		6A4C85FE257162AA00F2D867 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4C85FD257162AA00F2D867 /* Thumbnail.swift */; };
+		6A4C86042571642700F2D867 /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4C86032571642700F2D867 /* Comics.swift */; };
+		6A4C860A2571652200F2D867 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4C86092571652200F2D867 /* Items.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		6A4C85C9257129D400F2D867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4C85CC257129D400F2D867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A4C85CE257129D400F2D867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4C85E52571434B00F2D867 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		6A4C85EB2571436800F2D867 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6A4C85F12571446400F2D867 /* DataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataList.swift; sourceTree = "<group>"; };
+		6A4C85F725714B7100F2D867 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		6A4C85FD257162AA00F2D867 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		6A4C86032571642700F2D867 /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		6A4C86092571652200F2D867 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +103,13 @@
 		6A4C85932571298000F2D867 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6A4C85E52571434B00F2D867 /* Characters.swift */,
+				6A4C85EB2571436800F2D867 /* Model.swift */,
+				6A4C85F12571446400F2D867 /* DataList.swift */,
+				6A4C85F725714B7100F2D867 /* Results.swift */,
+				6A4C85FD257162AA00F2D867 /* Thumbnail.swift */,
+				6A4C86032571642700F2D867 /* Comics.swift */,
+				6A4C86092571652200F2D867 /* Items.swift */,
 				6A4C85952571298000F2D867 /* Info.plist */,
 			);
 			path = Model;
@@ -257,6 +278,7 @@
 				TargetAttributes = {
 					6A4C85912571298000F2D867 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					6A4C859F2571298E00F2D867 = {
 						CreatedOnToolsVersion = 12.2;
@@ -329,6 +351,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4C85E62571434B00F2D867 /* Characters.swift in Sources */,
+				6A4C85F22571446400F2D867 /* DataList.swift in Sources */,
+				6A4C85F825714B7100F2D867 /* Results.swift in Sources */,
+				6A4C85FE257162AA00F2D867 /* Thumbnail.swift in Sources */,
+				6A4C860A2571652200F2D867 /* Items.swift in Sources */,
+				6A4C85EC2571436800F2D867 /* Model.swift in Sources */,
+				6A4C86042571642700F2D867 /* Comics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +531,7 @@
 		6A4C85982571298000F2D867 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -519,6 +549,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucas.app.Model;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -526,6 +557,7 @@
 		6A4C85992571298000F2D867 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
