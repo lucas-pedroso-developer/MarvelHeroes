@@ -1,13 +1,13 @@
 import Foundation
 
 public struct Results : Model {
-    public let id : Int?
-    public let name : String?
-    public let description : String?
-    public let modified : String?
-    public let thumbnail : Thumbnail?
-    public let resourceURI : String?
-    public let comics : Comics?
+    public var id : Int?
+    public var name : String?
+    public var description : String?
+    public var modified : String?
+    public var thumbnail : Thumbnail?
+    public var resourceURI : String?
+    public var comics : Comics?
     
     init(id : Int?, name : String?, description : String?, modified : String?, thumbnail : Thumbnail?, resourceURI : String?, comics : Comics?) throws {
         self.id = id

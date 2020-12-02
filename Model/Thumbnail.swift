@@ -1,8 +1,8 @@
 import Foundation
 
 public struct Thumbnail: Model {
-    public let path: String?
-    public let imageExtension: String?
+    public var path: String?
+    public var imageExtension: String?
 
     enum CodingKeys: String, CodingKey {
         case path = "path"

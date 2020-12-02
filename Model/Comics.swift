@@ -1,10 +1,10 @@
 import Foundation
 
 public struct Comics: Model {
-    public let available: Int?
-    public let collectionURI: String?
-    public let items: [Items]?
-    public let returned: Int?
+    public var available: Int?
+    public var collectionURI: String?
+    public var items: [Items]?
+    public var returned: Int?
 
     public init(available: Int?, collectionURI: String?, items: [Items]?, returned: Int?) {
         self.available = available

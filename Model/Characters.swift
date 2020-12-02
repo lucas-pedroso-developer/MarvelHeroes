@@ -1,9 +1,9 @@
 import Foundation
 
 public struct Characters: Model {
-    public let code: Int?
-    public let status: String?
-    public let data: DataList?
+    public var code: Int?
+    public var status: String?
+    public var data: DataList?
 
     public init(code : Int?, status : String?, data : DataList?) throws {
         self.code = code
