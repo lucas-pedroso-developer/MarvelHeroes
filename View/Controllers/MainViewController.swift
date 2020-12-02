@@ -59,6 +59,13 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
                         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Detail", bundle: nil)
+        let newViewController = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController        
+        newViewController.id = self.mainViewModel.characters?.data?.results?[indexPath.row].id
+        present(newViewController, animated: true)
+    }
         
     func dateConverter(date: String) -> String {
         let dateFormatter = DateFormatter()
