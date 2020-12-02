@@ -32,9 +32,7 @@ class DetailViewController: UIViewController {
                     if let url = URL(string:  "\(thumbnail.path!)/portrait_xlarge.\(thumbnail.imageExtension!)") {
                         self.characterImageView.kf.setImage(with: url)
                     }
-                }
-                
-                
+                }                                
             },
             onError: { error in
                 //self.showAlert(title: "Erro", message: "Ocorreu o seguinte erro - \(error.localizedDescription) ")

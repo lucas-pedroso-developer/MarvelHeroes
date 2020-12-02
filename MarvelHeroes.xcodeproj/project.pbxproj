@@ -44,6 +44,10 @@
 		6AB48F192577F31B00836679 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB48F182577F31B00836679 /* DetailViewModel.swift */; };
 		6AB48F3425781BAD00836679 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB48F3325781BAD00836679 /* Character.swift */; };
 		6AB48F5E25784FCF00836679 /* CharacterCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB48F5D25784FCF00836679 /* CharacterCollectionCell.swift */; };
+		6AB48F64257854C000836679 /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB48F63257854C000836679 /* Comics.swift */; };
+		6AB48F6A257855F300836679 /* ComicsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB48F69257855F300836679 /* ComicsData.swift */; };
+		6AB48F6E2578569E00836679 /* ComicsResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB48F6D2578569E00836679 /* ComicsResults.swift */; };
+		6AB48F722578572C00836679 /* ComicsThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB48F712578572C00836679 /* ComicsThumbnail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +148,10 @@
 		6AB48F182577F31B00836679 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		6AB48F3325781BAD00836679 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		6AB48F5D25784FCF00836679 /* CharacterCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionCell.swift; sourceTree = "<group>"; };
+		6AB48F63257854C000836679 /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		6AB48F69257855F300836679 /* ComicsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsData.swift; sourceTree = "<group>"; };
+		6AB48F6D2578569E00836679 /* ComicsResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsResults.swift; sourceTree = "<group>"; };
+		6AB48F712578572C00836679 /* ComicsThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsThumbnail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +223,7 @@
 			children = (
 				6AB48F132577F29900836679 /* Main */,
 				6AB48F3225781B8600836679 /* Detail */,
+				6AB48F62257854A000836679 /* Comics */,
 				6A4C85952571298000F2D867 /* Info.plist */,
 			);
 			path = Model;
@@ -358,6 +367,17 @@
 				6AB48F3325781BAD00836679 /* Character.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		6AB48F62257854A000836679 /* Comics */ = {
+			isa = PBXGroup;
+			children = (
+				6AB48F63257854C000836679 /* Comics.swift */,
+				6AB48F69257855F300836679 /* ComicsData.swift */,
+				6AB48F6D2578569E00836679 /* ComicsResults.swift */,
+				6AB48F712578572C00836679 /* ComicsThumbnail.swift */,
+			);
+			path = Comics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -574,7 +594,11 @@
 				6A4C860A2571652200F2D867 /* Items.swift in Sources */,
 				6A4C85EC2571436800F2D867 /* Model.swift in Sources */,
 				6A4C86042571642700F2D867 /* Comics.swift in Sources */,
+				6AB48F6E2578569E00836679 /* ComicsResults.swift in Sources */,
 				6AB48F3425781BAD00836679 /* Character.swift in Sources */,
+				6AB48F64257854C000836679 /* Comics.swift in Sources */,
+				6AB48F722578572C00836679 /* ComicsThumbnail.swift in Sources */,
+				6AB48F6A257855F300836679 /* ComicsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
